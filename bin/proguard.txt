@@ -1,0 +1,179 @@
+# view res/layout/tieba_frs_sidebar.xml #generated:107
+-keep class com.baidu.adp.widget.BdSwitchView.BdSwitchView { <init>(...); }
+
+# view res/layout/tieba_frs_activity.xml #generated:89
+# view res/layout/tieba_new_pb_activity.xml #generated:70
+# view res/layout/tieba_new_sub_pb_layout.xml #generated:16
+-keep class com.baidu.adp.widget.ListView.BdListView { <init>(...); }
+
+# view res/layout/tieba_new_pb_list_item.xml #generated:104
+# view res/layout/tieba_new_sub_pb_head.xml #generated:92
+# view res/layout/tieba_new_sub_pb_list_item.xml #generated:35
+-keep class com.baidu.tbadk.widget.richText.TbRichTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:190
+-keep class com.baidu.tiebasdk.UpdateDialog { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.baidu.tiebasdk.account.ActivationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.baidu.tiebasdk.account.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.baidu.tiebasdk.account.ProtocolActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.baidu.tiebasdk.account.Register2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.baidu.tiebasdk.frs.FrsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.baidu.tiebasdk.frs.FrsImageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.baidu.tiebasdk.mention.AtMeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.baidu.tiebasdk.mention.MentionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.baidu.tiebasdk.mention.PostActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.baidu.tiebasdk.mention.ReplyMeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:198
+-keep class com.baidu.tiebasdk.more.AccountActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:176
+-keep class com.baidu.tiebasdk.pb.ImageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class com.baidu.tiebasdk.pb.ImagePbActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.baidu.tiebasdk.pb.NewPbActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.baidu.tiebasdk.pb.WebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.baidu.tiebasdk.person.AllPostActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.baidu.tiebasdk.person.MyPostActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.baidu.tiebasdk.person.PersonChangeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:222
+-keep class com.baidu.tiebasdk.service.ClearTempService { <init>(...); }
+
+# view AndroidManifest.xml #generated:232
+-keep class com.baidu.tiebasdk.service.FatalErrorService { <init>(...); }
+
+# view AndroidManifest.xml #generated:275
+-keep class com.baidu.tiebasdk.service.InstallReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:214
+-keep class com.baidu.tiebasdk.service.TiebaFullUpdateService { <init>(...); }
+
+# view AndroidManifest.xml #generated:248
+-keep class com.baidu.tiebasdk.service.TiebaMessageService { <init>(...); }
+
+# view AndroidManifest.xml #generated:258
+-keep class com.baidu.tiebasdk.service.TiebaPrepareImageService { <init>(...); }
+
+# view AndroidManifest.xml #generated:267
+-keep class com.baidu.tiebasdk.service.TiebaReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.baidu.tiebasdk.service.TiebaSyncService { <init>(...); }
+
+# view AndroidManifest.xml #generated:206
+-keep class com.baidu.tiebasdk.service.TiebaUpdateService { <init>(...); }
+
+# view res/layout/tieba_image_pb_activity.xml #generated:84
+-keep class com.baidu.tiebasdk.view.BaseViewPager { <init>(...); }
+
+# view res/layout/tieba_new_vcode_activity.xml #generated:38
+-keep class com.baidu.tiebasdk.view.BaseWebView { <init>(...); }
+
+# view res/layout/tieba_new_pb_activity.xml #generated:7
+-keep class com.baidu.tiebasdk.view.ClickableLayout { <init>(...); }
+
+# view res/layout/tieba_new_pb_activity.xml #generated:63
+# view res/layout/tieba_new_sub_pb_layout.xml #generated:8
+-keep class com.baidu.tiebasdk.view.ClickableLayout4Frame { <init>(...); }
+
+# view res/layout/tieba_image_pb_list_header.xml #generated:20
+# view res/layout/tieba_image_pb_list_item.xml #generated:34
+-keep class com.baidu.tiebasdk.view.CustomTextView { <init>(...); }
+
+# view res/layout/tieba_frs_star_title.xml #generated:142
+-keep class com.baidu.tiebasdk.view.CustomTimerView { <init>(...); }
+
+# view res/layout/tieba_frs_header.xml #generated:16
+# view res/layout/tieba_frs_star_title.xml #generated:17
+# view res/layout/tieba_frs_star_title.xml #generated:269
+-keep class com.baidu.tiebasdk.view.FrsStarImageView { <init>(...); }
+
+# view res/layout/tieba_water_fall_item.xml #generated:2
+-keep class com.baidu.tiebasdk.view.FrsWaterFallItem { <init>(...); }
+
+# view res/layout/tieba_dialog_good.xml #generated:7
+-keep class com.baidu.tiebasdk.view.GoodGridView { <init>(...); }
+
+# view res/layout/tieba_guid_page.xml #generated:2
+-keep class com.baidu.tiebasdk.view.GuidPageView { <init>(...); }
+
+# view res/layout/tieba_new_pb_list_item.xml #generated:25
+# view res/layout/tieba_new_sub_pb_head.xml #generated:16
+# view res/layout/tieba_new_sub_pb_list_item.xml #generated:17
+-keep class com.baidu.tiebasdk.view.HeadImageView { <init>(...); }
+
+# view res/layout/tieba_image_pb_list_header.xml #generated:14
+-keep class com.baidu.tiebasdk.view.ImagePbImageView { <init>(...); }
+
+# view res/layout/tieba_water_fall_item.xml #generated:11
+-keep class com.baidu.tiebasdk.view.ImageViewDrawer { <init>(...); }
+
+# view res/layout/tieba_new_pb_activity.xml #generated:2
+-keep class com.baidu.tiebasdk.view.KeyboardEventLayout { <init>(...); }
+
+# view res/layout/tieba_image_pb_activity.xml #generated:2
+-keep class com.baidu.tiebasdk.view.KeyboardLayout { <init>(...); }
+
+# view res/layout/tieba_image_activity.xml #generated:9
+-keep class com.baidu.tiebasdk.view.MultiImageView { <init>(...); }
+
+# view res/layout/tieba_frs_image_activity.xml #generated:86
+-keep class com.baidu.tiebasdk.view.WaterFallView { <init>(...); }
+
+# view AndroidManifest.xml #generated:160
+-keep class com.baidu.tiebasdk.write.AtListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class com.baidu.tiebasdk.write.NewVcodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class com.baidu.tiebasdk.write.VcodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class com.baidu.tiebasdk.write.WriteActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:168
+-keep class com.baidu.tiebasdk.write.WriteImageActivity { <init>(...); }
+
+# onClick res/layout/tieba_account_login_activity.xml #generated:124
+# onClick res/layout/tieba_account_login_activity.xml #generated:167
+# onClick res/layout/tieba_account_login_activity.xml #generated:216
+# onClick res/layout/tieba_account_login_activity.xml #generated:228
+# onClick res/layout/tieba_account_login_activity.xml #generated:23
+# onClick res/layout/tieba_account_login_activity.xml #generated:236
+# onClick res/layout/tieba_account_login_activity.xml #generated:255
+# onClick res/layout/tieba_account_login_activity.xml #generated:35
+-keepclassmembers class * { *** onClick(...); }
+

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baidu.tiebasdk"
+    android:versionCode="2"
+    android:versionName="4.2.9" >
+
+    <application>
+
+        <!-- 百度网统计的APP KEY -->
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="b8930f9fc4" />
+
+        <activity
+            android:name="com.baidu.tiebasdk.account.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.account.Register2Activity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.account.ActivationActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.account.ProtocolActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.person.AllPostActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.person.MyPostActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.frs.FrsActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.frs.FrsImageActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.mention.MentionActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.mention.ReplyMeActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.mention.AtMeActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.mention.PostActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.person.PersonChangeActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.pb.NewPbActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.pb.ImagePbActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.write.WriteActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.write.VcodeActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.write.NewVcodeActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.write.AtListActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.write.WriteImageActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.pb.ImageActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.pb.WebActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:process=":remote" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.UpdateDialog"
+            android:process=":remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/UpdateStyle" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.tiebasdk.more.AccountActivity"
+            android:process=":remote"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.baidu.tiebasdk.service.TiebaUpdateService"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.tiebasdk.service.TiebaFullUpdateService"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.tiebasdk.service.ClearTempService"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <category
+                    android:name="android.intent.category.DEFAULT"
+                    android:process=":remote" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.tiebasdk.service.FatalErrorService"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.tiebasdk.service.TiebaSyncService"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.tiebasdk.service.TiebaMessageService"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.tieba_sdk.service.Message" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.tiebasdk.service.TiebaPrepareImageService"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.baidu.tiebasdk.service.TiebaReceiver"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.tieba_sdk.broadcast.service" />
+                <action android:name="com.baidu.tieba_sdk.broadcast.sync" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.tiebasdk.service.InstallReceiver"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" >
+    </uses-permission>
+
+</manifest>
